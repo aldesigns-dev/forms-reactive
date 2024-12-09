@@ -9,6 +9,7 @@ function mustIncludeQuestionMark(control: AbstractControl) {
   }
   return { doesNotIncludeQuestionMark: true } // invalid
 }
+
 // Custom async validator
 function emailIsUnique(control: AbstractControl) {
   // hardcoded voorbeeld van bestaand emailadres
